@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JetpackCompose TODO App</string>
+    <string name="no_tasks_message">No tasks found.</string>
+    <string name="add_task">Add Task</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="create_task">Create Task</string>
+    <string name="edit_task">Edit Task</string>
+
+</resources>
