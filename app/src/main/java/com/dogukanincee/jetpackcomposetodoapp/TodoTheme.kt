@@ -1,3 +1,5 @@
+package com.dogukanincee.jetpackcomposetodoapp
+
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Shapes
 import androidx.compose.material.lightColors
@@ -10,6 +12,13 @@ private val LightColorPalette = lightColors(
     secondary = Color(0xFF03DAC6)
 )
 
+/**
+ * The com.dogukanincee.jetpackcomposetodoapp.TodoTheme function is a Composable function that provides a custom MaterialTheme for the
+ * entire application. It sets the color scheme, typography, and shapes used in the application.
+ *
+ * @param content A lambda that represents the content of the theme. This should include all the
+ *                Composable functions that will be displayed within the theme.
+ */
 @Composable
 fun TodoTheme(content: @Composable () -> Unit) {
     MaterialTheme(

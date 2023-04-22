@@ -12,6 +12,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.dogukanincee.jetpackcomposetodoapp.data.entity.Task
 
+/**
+ * This composable represents a single item in the task list. It displays the task's title and
+ * description in a Card, which is clickable to navigate to the task's detail screen.
+ *
+ * @param task The task to display.
+ * @param onClick A callback function to be called when the user clicks on the task.
+ */
 @Composable
 fun TaskItem(
     task: Task,
