@@ -88,16 +88,5 @@ The composable function starts with a Column composable that contains an Outline
 
 When the user clicks the Delete TextButton, we'll call the deleteTask method of the TaskViewModel and pass in the selected task as a parameter. When the user clicks the Save Button, we'll call the updateTask method of the TaskViewModel and pass in a copy of the selected task with the updated title, description, and completion status.
 
+
 Now that we have completed the navigation and detail screen, let's move on to the final part of our application, the ability to create and edit tasks.
-
-TaskFormScreen
-The TaskFormScreen is the screen where the user can create or edit a task. We'll create a new composable function named TaskFormScreen that will be responsible for rendering the form UI. It will have the following parameters:
-
-task: Task?: The task that is being edited, or null if a new task is being created.
-onSave: () -> Unit: A function to be called when the user saves the task.
-onCancel: () -> Unit: A function to be called when the user cancels the form.
-We'll use the remember function to create local state for the form fields title and description. If the task parameter is not null, we'll use its title and description values as the initial values for the form fields. Otherwise, we'll use empty strings.
-
-
-
-
